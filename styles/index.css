@@ -62,6 +62,20 @@
      padding: 17px; 
 }
 
+.head-menu-logos{
+    display: flex;
+    justify-content: space-around;
+}
+.head-menu-logos p{
+    font-size: 25px;
+    align-items: center;
+}
+.youtube1{
+    color: red;
+}
+.tiktok{
+     
+}
 
 
 
@@ -325,6 +339,17 @@
 
     
 }
+
+
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 50px;
+    padding-top: 60px;
+}
+ 
 
 
 
