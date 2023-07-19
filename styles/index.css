@@ -7,6 +7,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.primary-btn{
+    padding: 15px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
 
 /* head-section */
 .head-section{
@@ -56,6 +67,51 @@
 
 
 
+/* play section  */
+.play-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    background-image: url('../images/Group\ 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.play-container{
+    
+}
+.play-pic img{
+    width: 100%;
+}
+.play-container h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.play-container h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-container p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 17px;
+}
+.button2{
+    background: #4EC5F7;
+}
+
+
+
+
+
 
 
 
@@ -68,10 +124,92 @@
     .head-section{
         flex-direction: column;
         margin-top: 100px;
+        
     }
     .head-menu{
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
     }
+
+
+    /* play section  */
+    .play-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+        background-image: none;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .play-container{
+        background-image: url('../images/Group\ 14.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+    .play-pic img{
+        width: 80%;
+         
+    }
+    .play-container h2{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .play-container h1{
+        font-size: 63px;
+    }
+    .play-container p{
+        font-size: 16px;
+        align-items: start;
+        text-align: start;
+        margin-left: 70px;
+    }
+    .primary-btn{
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* tablee responnsive  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .head-section{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .head-menu{
+        margin-top: 10px;
+    }
+
+
+       /* play section  */
+       .play-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+        background-image: none;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .play-container{
+        background-image: url('../images/Group\ 14.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+    .play-pic img{
+        width: 80%;
+         
+    }
+    .play-container h2{
+        margin-top: 30px;
+    }
+    .play-container p{
+        margin-left: 70px;
+    }
+
 }
