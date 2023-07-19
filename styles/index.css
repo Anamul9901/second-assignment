@@ -18,6 +18,11 @@
     font-weight: 600;
     margin-top: 40px;
 }
+.primary-btn:hover{
+    cursor: pointer;
+    background-color: #534C64;
+    color: gold;
+}
 
 /* head-section */
 .head-section{
@@ -51,6 +56,11 @@
 .head-menu a{
     text-decoration: none;
 }
+.head-menu-logos p:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+
 .head-menu-logo{
     width: 262px;
     height: 56px;
@@ -188,6 +198,12 @@
     width: 342px;
     height: 400px;
 }
+.card:hover img{
+    cursor: pointer;
+    border: 5px solid #FF42A5 ;
+    border-radius: 20px;
+    
+}
 .card p{
     margin-top: 25px;
 }
@@ -295,9 +311,14 @@
     width: 110%;
     height: 120%;
     border-radius: 50px;
-    
+    font-size: 20px;
+    font-weight: 600;
 }
-
+.logo-card:hover{
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
 
 
 
@@ -308,11 +329,18 @@
      background: #0B0223;
      color: white;
 }
+.foot-logo{
+    height: 90px;
+}
 .foot-logo-gamer{
     justify-content: center;
     text-align: center;
     padding-top: 120px;
     margin-bottom: 65px;
+}
+.foot-logo p:hover{
+    cursor: pointer;
+    font-size: 70px;
 }
 .foot-web a{
     color: #FFF;
@@ -323,7 +351,7 @@
     margin-left: 60px;
 }
 .foot-condition{
-    margin-top: 65px;
+    padding-top: 65px;
     margin-bottom: 30px;
 }
 .foot-condition a{
@@ -520,11 +548,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 15px;
-    background-color: white;
-    width: 262px;
-    height: 80px;
-    border-radius: 50px; */
     
 }
 
@@ -532,22 +555,25 @@
     .foot-section{
         margin-top: 200px;
     }
+    .foot-web {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
     .foot-logo{
          
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
-        gap: 10px;
+        gap: 20px;
         font-size: 40px;
         padding-top: 60px;
     }
-    .foot-web{
+    .foot-condition{
+        gap: 20px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .foot-web{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 20px;
     }
 }
 
@@ -655,4 +681,22 @@
        .play-ins-pic{
            margin-left: 40px;
        }
+
+          /* logo section start  */
+.logo-card-sec{
+    /* display: none; */
+    /* margin-top: 230px; */
+     
+}
+.logo-card-div{
+    /* margin-top: 130px; */
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.logo-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
    }
