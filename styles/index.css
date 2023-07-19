@@ -110,6 +110,55 @@
 
 
 
+/* gammer section */
+.gammer-section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../images/Group\ 14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gammer-pic img{
+    width: 100%;
+}
+.gammer-container{
+    text-align: right;
+}
+.gammer-container h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gammer-container p{
+    /* width: 520px; */
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px; 
+    margin-top: 25px;
+}
+.gammer-container h4{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+
+.gammer-container h3{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    /* width: 520px; */
+}
+.gammer-btn{
+    margin-bottom: 25px;
+}
+
 
 
 
@@ -164,12 +213,43 @@
         align-items: start;
         text-align: start;
         margin-left: 70px;
-    }
+    } 
     .primary-btn{
         padding: 12px 20px;
         font-size: 16px;
     }
+
+
+
+    /* gammer-section  */
+    .gammer-section{
+        flex-direction: column;
+        background-image: none ;
+        margin-top: 35px ;
+    }
+    .gammer-container{
+        text-align: center;
+    }
+     
+    .gammer-container h2{
+        font-size: 30px;
+    }
+    .gammer-container p{
+        font-size: 13px;
+
+    }
+    .gammer-container h4{
+        font-size: 15px;
+    }
+    .gammer-container h3{
+        font-size: 20px;
+    }
+    .gammer-btn{
+        margin-bottom: 10px;
+    }
+    
 }
+
 
 
 
@@ -212,4 +292,15 @@
         margin-left: 70px;
     }
 
+
+      /* gammer-section  */
+      .gammer-section{
+        flex-direction: column;
+        background-image: none ;
+        margin-top: 35px ;
+    }
+    .gammer-container{
+        text-align: center;
+    }
+    
 }
